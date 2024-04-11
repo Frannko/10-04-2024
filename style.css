@@ -1,0 +1,46 @@
+*{
+    background-color: aliceblue;
+}
+.container {
+    background-color: #131313;
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: row-reverse;
+    padding-bottom: 20px;
+    margin: 20px;
+    gap: 10px;
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+    justify-content: center;
+}
+
+.caja{
+    background: rgb(76,0,98);
+    background: linear-gradient(162deg, rgba(76,0,98,1) 0%, rgba(208,86,255,1) 50%, rgba(21,0,33,1) 100%);
+    border: 3px solid rgb(114, 0, 89);
+    padding: 12px;
+    text-align: center;
+    font-size: 60px;
+    color: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow:rgb(114, 0, 89) 1px 1px 12px;
+    margin: 40px;
+    width: 100px;
+    height: 100px;
+}
+
+#caja_a{
+    order: 4;
+}
+
+#caja_e{
+    flex-grow: 2;
+    order: -1;
+}
+#caja_d{
+    flex-grow: 2;
+    order: -1;
+}
+
+#caja_d{
+    order: 3;
+}
